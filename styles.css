@@ -1,3 +1,7 @@
+* {
+    outline: 2px solid red;
+  }
+
 body {
     display: flex;
     flex-direction: column;
@@ -9,12 +13,13 @@ body {
 .header {
     background: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
+    padding: 30px 200px;
 }
 
 
@@ -29,11 +34,45 @@ ul {
     margin: 0;
     padding: 0;
     gap: 15px;
-    
-}
-
-.header.links {
+    justify-content: flex-end;
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 500;
+}
+   
+   
+
+.hero {
+    background: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    color: #e5e7eb;
+    text-align: left;
+    padding: 0px 200px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+
+.hero-button {
+    border-radius: 5px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 600;
+    flex-shrink: 0;
+    margin-top: 10px;
+}
+
+img {
+    height: 300px;
 }

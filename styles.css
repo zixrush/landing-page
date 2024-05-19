@@ -47,7 +47,6 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     gap: 20px;
     color: #e5e7eb;
     text-align: left;
@@ -75,4 +74,35 @@ ul {
 
 img {
     height: 300px;
+}
+
+.information {
+    align-items: center;
+    padding: 0px 200px;
+    text-align: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info {
+    
+    max-width: 140px;
+
+}
+
+.blue-box {
+    height: 130px;
+    width: 130px;
+    border: 5px solid royalblue;
+    border-radius: 10px;
 }
